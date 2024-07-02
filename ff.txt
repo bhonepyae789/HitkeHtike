@@ -1,0 +1,299 @@
+<div class="gallary" id="Categories1">
+            <h1>ထမင်းဟင်းချက်နည်းများ</h1>
+
+            <div class="gallary-image-box">
+                <div class="gallary-image">
+                    <img src="./img/အုန်းထမင်းကြက်သားဟင်း.jpg">
+
+                    <h3>အုန်းထမင်းနှင့်ကြက်သားဟင်း</h3>
+                    <a href="1.html" class="gallary-btn">အသေးစိတ်ကြည့်ရန်</a>
+                </div>
+
+                <div class="gallary-image">
+                    <img src="./img/ကြက်ဆီထမင်း.jpg">
+
+                    <h3>ကြက်ဆီထမင်း</h3>
+                    <a href="2.html" class="gallary-btn">အသေးစိတ်ကြည့်ရန်</a>
+                </div>
+
+                <div class="gallary-image">
+                    <img src="./img/ပသျူးထမင်း.jpg">
+
+                    <h3>ပသျူးထမင်းကြော်</h3>
+                    <a href="3.html" class="gallary-btn">အသေးစိတ်ကြည့်ရန်</a>
+                </div>
+
+                <div class="gallary-image">
+                    <img src="./img/ငါးသံပရာပေါင်း.jpg">
+
+                    <h3>ငါးသံပရာပေါင်း</h3>
+                    <a href="4.html" class="gallary-btn">အသေးစိတ်ကြည့်ရန်</a>
+                </div>
+
+                <div class="gallary-image">
+                    <img src="./img/ဂဏန်းချည်စပ်မာလာဟင်း.jpg">
+
+                    <h3>ဂဏန်းချည်စပ်မာလာဟင်း</h3>
+                    <a href="5.html" class="gallary-btn">အသေးစိတ်ကြည့်ရန်</a>
+                </div>
+
+                <div class="gallary-image">
+                    <img src="./img/ကြက်ဆာတေးကင်.jpg">
+
+                    <h3>ကြက်ဆာတေးကင်</h3>
+                    <a href="6.html" class="gallary-btn">အသေးစိတ်ကြည့်ရန်</a>
+                </div>
+
+                <div class="gallary-image">
+                    <img src="./img/ရေဘဝဲကြော်.jpg">
+
+                    <h3>ရေဘဝဲကြော်</h3>
+                    <a href="7.html" class="gallary-btn">အသေးစိတ်ကြည့်ရန်</a>
+                </div>
+
+                <div class="gallary-image">
+                    <img src="./img/ဆွေမျိုးမေ့ငါးခူဆီပြန်ချက်.jpg">
+
+                    <h3>ဆွေမျိုးမေ့ငါးခူဆီပြန်ချက်</h3>
+                    <a href="8.html" class="gallary-btn">အသေးစိတ်ကြည့်ရန်</a>
+                </div>
+
+                <div class="gallary-image">
+                    <img src="./img/ပိန္နဲသီးတာလပေါ့ဟင်း.jpg">
+
+                    <h3>ပိန္နဲသီးတာလပေါ့ဟင်း</h3>
+                    <a href="9.html" class="gallary-btn">အသေးစိတ်ကြည့်ရန်</a>
+                </div>
+            </div>
+        </div>
+
+        <!--Calories-->
+        <div class="calory" id="Calories">
+            
+        <form>
+            <h2 class="form-title">တွက်ချက်</h2>
+            
+            <p>ကိုယ်အလေးချိန်လျော့ချရန် သို့မဟုတ် တစ်နေ့တာလျှင်ကယ်လိုရီမည်မျှစားသင့်သည်ကိုတွက်ချက်ရန်သင်၏အသေးစိတ်အချက်အလက်များကိုဖြည့်ပါ။</p>
+            <label for="age">အသက်</label>
+            <input type="number" name="age" id="age" class="age1" placeholder="သင်၏အမည်ထည့်ပါ" required>
+            <div class="radio-group">
+              <label for="sex">ကျား/မ</label>
+              <input type="radio" name="sex" value="male" id="male" checked="checked"> <label for="male">ကျား</label>
+              <input type="radio" name="sex" value="female" id="female"> <label for="female">မ</label>
+            </div>
+            <label>ကိုယ်အလေးချိန်</label>
+            <input type="number" name="weight" id="weight" class="age1" placeholder="ကိုယ်အလေးချိန်ထည့်ပါ" required>
+            <span></span>
+            <label>အရပ်</label>
+            <input type="number" name="inches" id="inches" class="age1" placeholder="အရပ်ထည့်ပါ" required>
+            <label>လေ့ကျင့်ခန်း</label>
+            <select  name="activity_level" id="activity_level" required>
+              <option value="">ပြုလုပ်ပါ...</option>
+              <option value="1.2">အနည်းငယ် (သို့) မလုပ်ပါ</option>
+              <option value="1.375">တစ်ပတ် ၁-၃ ရက်လုပ်ပါသည်</option>
+              <option value="1.55">တစ်ပတ် ၃-၅ ရက်လုပ်ပါသည်</option>
+              <option value="1.725">တစ်ပတ် ၆-၇ ရက်လုပ်ပါသည်</option>
+            </select>
+           
+            <button type="reset">Reset</button>
+            <button type="submit">Calculate</button>
+        </div>
+        
+        
+
+        <!--Ban-->
+        <section class="avoid">
+            <h1 class="ui">တွဲဖက်မစားသင့်သော</h1>
+        <div class="ban" id="Ban">
+            
+           <div class="you">ဆူးပုတ်ရွက်+ဆိတ်သား<br>
+            {မူး‌ဝေ}</div>
+
+            <div class="you">ဝက်သား+ဒေါင်းသား<br>
+                {ဝမ်းလျှော}</div>
+
+                <div class="you">ကြက်သား+ကြက်ဟင်းခါးသီး<br>
+                    {အော့အန်}</div>
+
+                    <div class="you">ခိုသား+စောင်းလျားသီး<br>
+                        {ဝမ်းလျှော}</div>
+
+                        <div class="you">ဘဲဥ+ဗျိုင်းသား<br>
+                            {ဝမ်းလျှော}</div>
+
+                            <div class="you">ကျွဲသား+ကြာရိုးကြာစွယ်<br>
+                                {ဝမ်းလျှော}</div>
+
+                                <div class="you">ဘဲဥ+ဖရဲသီး<br>
+                                    {အော့အန်}</div>
+
+                                    <div class="you">လက်ဖက်သုပ်+မယ်ဇလီရွက်<br>
+                                        {အော့အန်}</div>
+
+                                        <div class="you">ကြက်သား+ကြောင်လျှာသီး<br>
+                                            {အကြောတက်}</div>
+
+                                            <div class="you">မှို+ကြက်ဟင်းခါးသီး<br>
+                                                {အ‌ကြောတက်}</div>
+
+                                                <div class="you">ကဏန်း+ခရမ်းသီး<br>
+                                                    {အဆိပ်သင့်}</div>
+
+                                                    <div class="you">အမဲသား+တရုတ်ကြက်သွန်မိတ်<br>
+                                                        {အဆိပ်သင့်}</div>
+
+                                                        <div class="you">ကျေးသား+ဘူးသီး<br>
+                                                            {သေ}</div>
+
+                                                            <div class="you">ဝက်သား+ဗျိုင်းသား<br>
+                                                                {သေ}</div>
+
+                                                                <div class="you">တညင်းသီး+မှို<br>
+                                                                    {သေ}</div><br>
+        
+        </div>
+        </section>
+
+
+        <!--About-->
+
+        <div class="about" id="About">
+            <div class="about_main">
+
+                <div class="image">
+                    <img src="./img/food.png">
+                </div>
+
+                <div class="about_text">
+                    <h1>အကြောင်းအရာ</h1>
+                    <pre><h3>ဘာကြောင့်ရွေးချယ်သင့်သလဲ</h3></pre>
+                    <p>မြန်မာရိုးရာဟင်းလျာများကိုစူးစမ်းလေ့လာခြင်းဖြင့်နိုင်ငံ၏တက်ကြွသောအစားအစာယဥ်ကျေးမှုတွင်သင်ကိုယ်တိုင်နှစ်မြုပ်ပြီးမြန်မာအစားအစာများကိုပုံဖော်ပေးသောမတူကွဲပြားသောသြဇာလွမ်းမိုးမှုများကိုနှစ်သက်ခံစားနိုင်စေပါသည်။ဟင်းချက်နည်းများစွာကိုလွယ်လွယ်ကူကူရှာဖွေပြီးအရသာရှိသောဟင်းလျာများကိုလ့လာချက်ပြုတ်နိုင်ပါသည်။ကိုယ်အလေးချိန်ထိန်းသိမ်းရန်သို့မဟုတ်လျော့ချနိုင်ရန်မိမိစားသုံးသောအစားအစာများတွင်ပါဝင်သောကယ်လိုရီပမာဏများကိုလေ့လာသိရှိနိုင်ပါသည်။တွဲဖက်၍မစားသင့်သောအစားအစာများကိုလည်းတစ်ပါတည်းကြည့်ရှုနိုင်သည်။
+                    </p>
+                </div>
+            </div>
+            <a href="#" class="about_btn">အသေးစိတ်အချက်အလက်များ</a>
+        </div>
+
+            <!--Team-->
+
+            <div class="team" id="Team">
+                <h1>အဖွဲ့သားများ</h1>
+
+                <div class="team-box">
+                    <div class="profile">
+                        <img src="./img/Bein Mont.webp">
+                        <div class="info">
+                            <h2 class="name">Mg Bhone Pyae Paing</h2>
+                            <p class="bio">SecondYear(Section_B)<br>KPTMYK_001347(CS)</p>
+                            <div class="team-icon">
+                                <i class="fa-brands fa-facebook-f"></i>
+                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-brands fa-instagram"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="profile">
+                        <img src="./img/Bein Mont.webp">
+                        <div class="info">
+                            <h2 class="name">Mg Bhone Pyae Paing</h2>
+                            <p class="bio">zzzzzzzzzzzzzzzzzzzzzzzzzz</p>
+                            <div class="team-icon">
+                                <i class="fa-brands fa-facebook-f"></i>
+                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-brands fa-instagram"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="profile">
+                        <img src="./img/Klayar Htay.jpg">
+                        <div class="info">
+                            <h2 class="name">Klayar Htay</h2>
+                            <p class="bio">SecondYear(Section_B)<br>KPTMYK_001358(CS)</p>
+                            <div class="team-icon">
+                                <i class="fa-brands fa-facebook-f"></i>
+                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-brands fa-instagram"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="profile">
+                        <img src="./img/Bein Mont.webp">
+                        <div class="info">
+                            <h2 class="name">Mg Bhone Pyae Paing</h2>
+                            <p class="bio">zzzzzzzzzzzzzzzzzzzzzzzzzz</p>
+                            <div class="team-icon">
+                                <i class="fa-brands fa-facebook-f"></i>
+                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-brands fa-instagram"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="profile">
+                        <img src="./img/Bein Mont.webp">
+                        <div class="info">
+                            <h2 class="name">Mg Bhone Pyae Paing</h2>
+                            <p class="bio">zzzzzzzzzzzzzzzzzzzzzzzzzz</p>
+                            <div class="team-icon">
+                                <i class="fa-brands fa-facebook-f"></i>
+                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-brands fa-instagram"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Footer-->
+
+            <footer>
+                <div class="footer-main">
+                    <div class="footer-tag">
+                        <h2>တည်နေရာ</h2>
+                        <p>မြန်မာ</p>
+                        <P>စင်ကာပူ</P>
+                        <p>ထိုင်း</p>
+                        <p>ဂျပန်</p>
+                        <p>အမေရိကန်</p>
+                    </div>
+
+
+                    <div class="footer-tag">
+                        <h2>လင့်ခ်</h2>
+                        <ul>
+                        <li><a href="#Home">ပင်မစာမျက်နှာ</a></li>
+                        <li><a href="#Categories">လူကြိုက်များသောအစားအစာများ</a></li>
+                        <li><a href="#Categories1">ထမင်းဟင်းချက်နည်းများ</a></li>
+                        <li><a href="#Cook">ချက်ပြုတ်စုစည်းမှုများ</a></li>
+                        <li><a href="#About">အကြောင်းအရာ</a></li>
+                        <li><a href="#Team">အဖွဲ့သားများ</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-tag">
+                        <h2>အကူအညီ</h2>
+                        <p>+95 9779525269</p>
+                        <p>+95 9254244801</p>
+                        <p>chefgo123@gmail.com</p>
+                        <p>foodcook456@gmail.com</p>
+                    </div>
+
+                    
+
+                    <div class="footer-tag">
+                        <h2>လေ့လာလိုက်စားပါ</h2>
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                </div>
+                <hr>
+                <p class="end">Design by<span><i class="fa-solid fa-face-grin"></i>University of Computer Sturent</span></p>
+                <p class="end-a">&copy;2024<strong><a href="https://www.ucsmyeik.edu.mm/">University of Computer Student</a></strong>.All Rights Reserved.</p>
+            </footer>
+    </body>
+</html>
+
+
+
+

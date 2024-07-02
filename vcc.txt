@@ -1,0 +1,2 @@
+insert into table Category values('A1','Jane Austen'),('A2','Harper Lee'),('A3','George Orwell'),('A4','F.Scott Fitzgerald'),('A5','Charlotte Bronte'
+),('A6','Herman Melville'),('A7','Mary Shelley'),('A8','Emily Bronte'),('A9','Mark Twain'),('A10','J.R.R. Tolkien');
